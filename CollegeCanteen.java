@@ -34,7 +34,7 @@ public class CollegeCanteen {
         frame.add(passText);
         frame.add(loginButton);
 
-        // ✅ FIXED LOGIN BUTTON CODE
+        
         loginButton.addActionListener(e -> {
 
             String username = userText.getText();
